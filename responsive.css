@@ -27,6 +27,7 @@
         display: block;
     width: 300px;
     transition: all 0.3s ease 0s;
+         transform: translateX(-100%);
     }
     .toggle{
         display: block;

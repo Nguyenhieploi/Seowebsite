@@ -1,0 +1,61 @@
+@media only screen and (max-width: 992px){
+
+    .main-2 h3{
+        padding:0;
+    }
+    #number{
+       border-radius: 60px;
+       width: 9%;
+    }
+   .seclect-5 h2{
+        text-align: center;
+        padding: 0;
+   }
+   .img2{
+       margin-top: 50px;
+   }
+   .setting{
+       margin-top: 30px;
+   }
+   #btn-btn{
+       width: 35%;
+   }
+   
+}
+@media only screen and (max-width: 768px){
+    #header{
+        display: block;
+    width: 300px;
+    transition: all 0.3s ease 0s;
+    }
+    .toggle{
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 999;
+        cursor: pointer;
+        border-radius: 50%;
+        font-size: 30px;
+    }
+    
+   .menu li{ 
+       float: none;
+   }
+   .navbar{
+       height:100vh;
+       flex-direction: column;
+    justify-content: end;
+   }
+   #menu{
+    margin-top: 10px;
+    margin-right: 10px;
+   }
+   .section-1 h1 {
+    font-size: 1.9rem;
+   }
+   .main-2 h3 {
+    color: #343f52;
+    font-size: 1.9rem;
+   }
+}
